@@ -1,4 +1,4 @@
-(function() {
+
     let actualizar = function(){
         const fecha = new Date();
         const diaF = fecha.getDate();
@@ -22,8 +22,5 @@
         minuto.textContent = minutoF;
         segundo.textContent = segundoF;
     }
-        
-    
     actualizar();
     const setActualizar = setInterval(actualizar,1000)
-}())
